@@ -10,6 +10,8 @@ public class GeminiService {
     private final WebClient webClient;
 
     private String geminiApiUrl;
+    private String geminiApiKey;
+
 
 
 }
