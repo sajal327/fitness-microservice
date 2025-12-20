@@ -13,5 +13,8 @@ public class GeminiService {
     private String geminiApiKey;
 
 
+    public GeminiService(WebClient.Builder webClientBuilder){
+        this.webClient = webClientBuilder.build();
+    }
 
 }
