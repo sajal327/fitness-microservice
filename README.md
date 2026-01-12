@@ -56,6 +56,8 @@ This platform captures user fitness activities, processes them asynchronously, a
 ---
 
 ## 🗂️ Project Structure
+
+```
 fitness-ai-microservices/
 │
 ├── api-gateway/
@@ -78,20 +80,4 @@ fitness-ai-microservices/
 ├── README.md
 └── docs/
     └── Architecture.png
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+```
