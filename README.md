@@ -36,7 +36,7 @@ This platform captures user fitness activities, processes them asynchronously, a
 - Spring Data JPA (PostgreSQL)
 - Spring Data MongoDB
 - Apache Kafka
-- WebClient / Feign
+- WebClient
 - FastAPI (AI Service)
 - Python (Machine Learning)
 
@@ -47,7 +47,7 @@ This platform captures user fitness activities, processes them asynchronously, a
 ### Infrastructure
 - Docker & Docker Compose
 - Git-based Config Repository
-- Kafka + Zookeeper
+- Kafka
 
 ### Frontend / Mobile
 - React.js (Web)
@@ -56,4 +56,27 @@ This platform captures user fitness activities, processes them asynchronously, a
 ---
 
 ## 🗂️ Project Structure
+fitness-ai-microservices/
+│
+├── api-gateway/
+├── config-server/
+├── eureka-server/
+├── userservice/
+├── activityservice/
+├── activity-consumer/
+├── ai-service/
+│   ├── training/
+│   └── inference/
+│
+├── config-repo/
+│   ├── application.yml
+│   ├── userservice.yml
+│   ├── activityservice.yml
+│   └── api-gateway.yml
+│
+├── docker-compose.yml
+├── README.md
+└── docs/
+    └── Architecture.png
+
 
