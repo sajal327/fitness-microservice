@@ -59,27 +59,27 @@ This platform captures user fitness activities, processes them asynchronously, a
 
 ```
 fitness-microservices-platform/
-├── eureka-service/              # Service Discovery (IntelliJ/Spring Boot)
+├── eureka-service/                  # Service Discovery
 │   ├── src/main/java/com/fitness/eureka/
 │   ├── pom.xml
 │   └── Dockerfile
 │
-├── user-service/                # User Service (IntelliJ/Spring Boot)
+├── user-service/                    # User Service
 │   ├── src/main/java/com/fitness/userservice/
 │   ├── pom.xml
 │   └── Dockerfile
 │
-├── activity-service/            # Activity Service (IntelliJ/Spring Boot)
+├── activity-service/                # Activity Service
 │   ├── src/main/java/com/fitness/activityservice/
 │   ├── pom.xml
 │   └── Dockerfile
 │
-├── ai-service/                  # Spring Boot AI Service (IntelliJ/Spring Boot)
+├── ai-service/                      # Spring Boot AI Service
 │   ├── src/main/java/com/fitness/aiservice/
 │   ├── pom.xml
 │   └── Dockerfile
 │
-├── python-ai-model/            # Python AI Model Service (VS Code/Python)
+├── python-ai-model/                 # Python AI Model Service
 │   ├── model/
 │   │   ├── __init__.py
 │   │   ├── train_model.py
@@ -87,13 +87,13 @@ fitness-microservices-platform/
 │   │   └── fitness_model.joblib
 │   ├── api/
 │   │   ├── __init__.py
-│   │   ├── main.py           # FastAPI application
+│   │   ├── main.py                  # FastAPI application
 │   │   └── kafka_consumer.py
 │   ├── requirements.txt
 │   ├── Dockerfile
 │   └── .env
 │
-├── docker-compose.yml          # Docker composition for all services
+├── docker-compose.yml               # Docker composition for all services
 └── README.md
 └── docs/
     └── Architecture.png
