@@ -1,4 +1,4 @@
-# AI-Powered Fitness Microservices Platform
+# Full-Stack AI Fitness Microservices
 
 A **cloud-native, event-driven fitness application** built using **Spring Boot microservices, Apache Kafka, AI/ML, FastAPI, Docker**, and modern web & mobile clients (**React.js & Flutter**).
 
