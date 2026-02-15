@@ -20,6 +20,7 @@ This platform captures user fitness activities, processes them asynchronously, a
 - **Service Discovery** using Eureka
 - **Centralized Configuration** with Spring Cloud Config
 - **Event-driven communication** using Apache Kafka
+- **Redis** as a centralized caching layer
 - **AI Recommendation Engine** (FastAPI + ML)
 - **Docker-first local development**
 - **React.js Web App** & **Flutter Mobile App**
