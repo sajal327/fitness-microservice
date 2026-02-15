@@ -1,4 +1,4 @@
-# 🏋️ AI-Powered Fitness Microservices Platform
+# AI-Powered Fitness Microservices Platform
 
 A **cloud-native, event-driven fitness application** built using **Spring Boot microservices, Apache Kafka, AI/ML, FastAPI, Docker**, and modern web & mobile clients (**React.js & Flutter**).
 
@@ -13,7 +13,7 @@ This platform captures user fitness activities, processes them asynchronously, a
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 - Microservices architecture with **Spring Boot**
 - **API Gateway** as a single entry point
@@ -58,26 +58,43 @@ This platform captures user fitness activities, processes them asynchronously, a
 ## 🗂️ Project Structure
 
 ```
-fitness-ai-microservices/
+fitness-microservices-platform/
+├── eureka-service/              # Service Discovery (IntelliJ/Spring Boot)
+│   ├── src/main/java/com/fitness/eureka/
+│   ├── pom.xml
+│   └── Dockerfile
 │
-├── api-gateway/
-├── config-server/
-├── eureka-server/
-├── userservice/
-├── activityservice/
-├── activity-consumer/
-├── ai-service/
-│   ├── training/
-│   └── inference/
+├── user-service/                # User Service (IntelliJ/Spring Boot)
+│   ├── src/main/java/com/fitness/userservice/
+│   ├── pom.xml
+│   └── Dockerfile
 │
-├── config-repo/
-│   ├── application.yml
-│   ├── userservice.yml
-│   ├── activityservice.yml
-│   └── api-gateway.yml
+├── activity-service/            # Activity Service (IntelliJ/Spring Boot)
+│   ├── src/main/java/com/fitness/activityservice/
+│   ├── pom.xml
+│   └── Dockerfile
 │
-├── docker-compose.yml
-├── README.md
+├── ai-service/                  # Spring Boot AI Service (IntelliJ/Spring Boot)
+│   ├── src/main/java/com/fitness/aiservice/
+│   ├── pom.xml
+│   └── Dockerfile
+│
+├── python-ai-model/            # Python AI Model Service (VS Code/Python)
+│   ├── model/
+│   │   ├── __init__.py
+│   │   ├── train_model.py
+│   │   ├── predict.py
+│   │   └── fitness_model.joblib
+│   ├── api/
+│   │   ├── __init__.py
+│   │   ├── main.py           # FastAPI application
+│   │   └── kafka_consumer.py
+│   ├── requirements.txt
+│   ├── Dockerfile
+│   └── .env
+│
+├── docker-compose.yml          # Docker composition for all services
+└── README.md
 └── docs/
     └── Architecture.png
 ```
