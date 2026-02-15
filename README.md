@@ -34,6 +34,7 @@ This platform captures user fitness activities, processes them asynchronously, a
 - Java 17
 - Spring Boot
 - Spring Cloud (Eureka, Config Server, Gateway)
+- Spring Data Redis (Caching)
 - Spring Data JPA (PostgreSQL)
 - Spring Data MongoDB
 - Apache Kafka
