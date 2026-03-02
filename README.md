@@ -8,7 +8,7 @@ This platform captures user fitness activities, processes them asynchronously, a
 
 ## 📌 Architecture Overview
 
-![Architecture Diagram](docs/SystemArchitecture.png)
+![Architecture Diagram](docs/System_Architecture.png)
 
 
 ---
