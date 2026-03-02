@@ -98,5 +98,5 @@ fitness-microservices-platform/
 ├── docker-compose.yml               # Docker composition for all services
 └── README.md
 └── docs/
-    └── Architecture.png
+    └── System_Architecture.png
 ```
