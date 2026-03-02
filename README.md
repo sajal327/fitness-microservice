@@ -6,7 +6,7 @@ This platform captures user fitness activities, processes them asynchronously, a
 
 ---
 
-## 📌 Architecture Overview
+## Architecture Overview
 
 ![Architecture Diagram](docs/System_Architecture.png)
 
@@ -28,7 +28,7 @@ This platform captures user fitness activities, processes them asynchronously, a
 
 ---
 
-## 🧱 Technology Stack
+## Technology Stack
 
 ### Backend
 - Java 17
@@ -57,7 +57,7 @@ This platform captures user fitness activities, processes them asynchronously, a
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 fitness-microservices-platform/
